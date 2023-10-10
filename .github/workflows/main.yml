@@ -9,4 +9,4 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Run Hello World Action
-      uses: Piotr1215/test-action@main
+      uses: Piotr1215/test/action/.github/actions/test-action@main
