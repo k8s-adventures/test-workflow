@@ -11,4 +11,4 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Run Hello World Action
-      uses: Piotr1215/test-action/.github/actions/test-action@main
+      uses: k8s-adventures/test-action/.github/actions/test-action@main
