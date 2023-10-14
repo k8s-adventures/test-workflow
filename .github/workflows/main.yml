@@ -6,7 +6,7 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-latest
     env:
-      ORG_KUBECONFIG: ${{ secrets.ORG_KUBECONFIG }}
+      ORG_KUBECONFIG: ${{ secrets.ORG_TEST_SECRET }}
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
